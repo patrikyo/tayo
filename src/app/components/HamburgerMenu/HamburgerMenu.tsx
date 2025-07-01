@@ -36,14 +36,11 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
         )}
       </button>
 
-      <div
-        id="hamburger-navigation"
-        className={`${
-          isMenuOpen ? styles.showNavigation : styles.hideNavigation
-        }`}
-      >
-        <Navigation links={links} />
-      </div>
+      {isMenuOpen && (
+        <div id="hamburger-navigation">
+          <Navigation links={links} />
+        </div>
+      )}
     </>
   );
 };

@@ -4,11 +4,3 @@
   min-width: 2rem;
   min-height: 2rem;
 }
-
-.hideNavigation {
-  display: none;
-}
-
-.showNavigation {
-  display: block;
-}
