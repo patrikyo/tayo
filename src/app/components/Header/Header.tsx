@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faElevator } from "@fortawesome/free-solid-svg-icons";
 import Navigation from "../Navigation/Navigation";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+import Direction from "@/app/models/enums/direction.enum";
 
 const Header = () => {
   const links: Link[] = [
@@ -22,7 +23,7 @@ const Header = () => {
       </div>
 
       <div className={styles.navigationContainer}>
-        <Navigation links={links} />
+        <Navigation direction={Direction.Row} links={links} />
       </div>
     </header>
   );

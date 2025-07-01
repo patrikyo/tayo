@@ -1,3 +1,14 @@
 .listContainer {
   list-style: none;
+  display: flex;
+  gap: 1rem;
+  color: #676770;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
 }

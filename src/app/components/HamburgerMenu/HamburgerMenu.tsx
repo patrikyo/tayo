@@ -5,6 +5,7 @@ import styles from "./HamburgerMenu.module.css";
 import Navigation from "../Navigation/Navigation";
 import HamburgerMenuProps from "@/app/models/interfaces/HamburgerMenuProps.interface";
 import { useState } from "react";
+import Direction from "@/app/models/enums/direction.enum";
 
 const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +39,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
 
       {isMenuOpen && (
         <div id="hamburger-navigation">
-          <Navigation links={links} />
+          <Navigation direction={Direction.Column} links={links} />
         </div>
       )}
     </>
