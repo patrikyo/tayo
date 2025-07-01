@@ -1,0 +1,45 @@
+.container {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.titleContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.title {
+  color: #676776;
+}
+
+.icon {
+  height: 2.5rem;
+  color: #676776;
+}
+
+.toggleBtn {
+  background-color: white;
+  border: none;
+}
+
+.hamburgerMenu {
+  display: block;
+  min-width: 4rem;
+}
+
+.navigationContainer {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .hamburgerMenu {
+    display: none;
+  }
+
+  .navigationContainer {
+    display: block;
+  }
+}
