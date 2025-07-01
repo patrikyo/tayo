@@ -1,0 +1,14 @@
+.toggleBtn {
+  background-color: white;
+  border: none;
+  min-width: 2rem;
+  min-height: 2rem;
+}
+
+.hideNavigation {
+  display: none;
+}
+
+.showNavigation {
+  display: block;
+}
