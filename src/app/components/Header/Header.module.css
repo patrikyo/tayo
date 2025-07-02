@@ -1,8 +1,8 @@
 .container {
-  padding: 0.5rem 1rem;
+  padding: 1.25rem 0.625rem;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .titleContainer {
@@ -13,6 +13,8 @@
 
 .title {
   color: #676776;
+  font-size: 3rem;
+  line-height: 0.5;
 }
 
 .icon {
