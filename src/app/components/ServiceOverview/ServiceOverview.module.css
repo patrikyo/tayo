@@ -1,0 +1,23 @@
+.container {
+  padding: 1.875rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #676770;
+}
+
+.description {
+  color: #8e8e9c;
+}
+
+.listContainer {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
