@@ -1,7 +1,5 @@
 .container {
-  padding: 1.875rem 0;
-  width: 80%;
-  margin: 0 auto;
+  padding: 1.875rem 0.75rem 3rem 0.75rem;
 }
 
 .title {
@@ -13,11 +11,12 @@
 
 .description {
   color: #8e8e9c;
+  margin-bottom: 2rem;
 }
 
 .listContainer {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 3rem;
 }

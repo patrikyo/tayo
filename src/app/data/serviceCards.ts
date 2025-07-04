@@ -1,4 +1,8 @@
-import { faUsersLine } from "@fortawesome/free-solid-svg-icons";
+import {
+  faNoteSticky,
+  faUsersLine,
+  faWrench,
+} from "@fortawesome/free-solid-svg-icons";
 import ServiceCardProp from "../models/interfaces/ServiceCard.interface";
 
 const serviceCards: ServiceCardProp[] = [
@@ -10,14 +14,14 @@ const serviceCards: ServiceCardProp[] = [
     button: { text: "Läs mer om Service", link: "#test" },
   },
   {
-    icon: faUsersLine,
+    icon: faWrench,
     title: "Felsökning & reperation",
     description:
       "Med en erfaren och certifierade tekniker har vi expertisen att diagnostisera och reparera alla typer av hiss- och rulltrappsystem, från hydrauliska till drag- och maskinrumslösa system.",
     button: { text: "Läs mer om Felsökning & reperation", link: "#test" },
   },
   {
-    icon: faUsersLine,
+    icon: faNoteSticky,
     title: "Underhåll och uppföljning",
     description:
       "För att förebygga framtida problem kan hisskonsulten rekommendera en underhållsplan för kundens hiss- eller rulltrappssystem.",
