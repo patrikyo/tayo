@@ -1,0 +1,32 @@
+.serviceContainer,
+.maintenanceContainer {
+  background-color: #192024;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.75rem 1.875rem 0.75rem;
+}
+
+.serviceContainer {
+  padding-bottom: 3rem;
+}
+
+.diagnosticsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+  margin: 3rem 0;
+  padding: 0 0.75rem;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  color: #ffff;
+  padding: 1.875rem;
+  text-align: center;
+}
+
+.reperationTitle {
+  color: #676770;
+}
