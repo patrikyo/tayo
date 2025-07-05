@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #676770;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin: 1rem 0 1rem 0;
+}
+
+.description {
+  color: #676770;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 25px;
+}
