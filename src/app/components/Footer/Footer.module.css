@@ -13,5 +13,7 @@
   color: #676770;
   font-size: 0.875rem;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 1.5625rem;
+  max-width: 79.125rem;
+  margin: 0 auto 1rem auto;
 }

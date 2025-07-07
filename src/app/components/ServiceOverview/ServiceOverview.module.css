@@ -12,6 +12,7 @@
 .description {
   color: #8e8e9c;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .listContainer {
@@ -19,4 +20,14 @@
   list-style: none;
   flex-wrap: wrap;
   gap: 3rem;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    padding: 1.875rem 1.2rem 3rem 1.2rem;
+  }
+
+  .listContainer {
+    justify-content: center;
+  }
 }

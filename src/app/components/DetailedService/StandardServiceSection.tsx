@@ -7,7 +7,7 @@ const StandardServiceSection: React.FC<StandardServiceSectionProps> = ({
 }) => {
   return (
     <>
-      <Image src={img} width={350} height={350} alt="" className={styles.img} />
+      <Image src={img} width={350} height={350} alt="" className="img" />
       <p className={styles.description}>{description}</p>
     </>
   );

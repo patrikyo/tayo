@@ -12,15 +12,25 @@
   padding: 1.875rem;
 }
 
-.img {
-  height: 100%;
-  object-fit: fill;
-  width: 100%;
-  margin-bottom: 1.875rem;
-}
-
 .description {
   color: #ffff;
   width: 100%;
   text-align: left;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    padding: 0 1.2rem 1.875rem 1.2rem;
+  }
+
+  .description {
+    max-width: 79.125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    width: 90%;
+  }
 }

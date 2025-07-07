@@ -30,3 +30,14 @@
 .reperationTitle {
   color: #676770;
 }
+
+@media screen and (min-width: 576px) {
+  .serviceContainer,
+  .maintenanceContainer {
+    padding: 0 1.2rem 1.875rem 1.2rem;
+  }
+
+  .diagnosticsContainer {
+    padding: 0 1.2rem;
+  }
+}

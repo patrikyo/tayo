@@ -7,9 +7,9 @@ const DiagnosticsSection: React.FC<DiagnosticsSectionProps> = ({
 }) => {
   return (
     <>
-      <Image src={img} width={350} height={350} alt="" />
+      <Image src={img} width={350} height={350} className="img" alt="" />
       <h3 className={styles.title}>{title}</h3>
-      <p>{description}</p>
+      <p className={styles.description}>{description}</p>
     </>
   );
 };
