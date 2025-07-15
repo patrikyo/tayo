@@ -7,8 +7,6 @@ import Status from "@/app/models/enums/status.enum";
 import ContactInput from "@/app/models/interfaces/ContactInput.interface";
 import fields from "@/app/data/fields";
 import Spinner from "../Spinner/Spinner";
-import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
 
 const Contact = () => {
