@@ -1,4 +1,4 @@
-import ContactField from "../models/enums/ContactField.enum";
+import ContactField from "../models/enums/contactField.enum";
 
 const fields = [
   {

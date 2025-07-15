@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "./Contact.module.css";
 import { getValidationError } from "./validation";
-import ContactField from "@/app/models/enums/ContactField.enum";
+import ContactField from "@/app/models/enums/contactField.enum";
 import Status from "@/app/models/enums/status.enum";
 import ContactInput from "@/app/models/interfaces/ContactInput.interface";
 import fields from "@/app/data/fields";

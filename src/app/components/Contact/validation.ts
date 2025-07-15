@@ -1,4 +1,4 @@
-import ContactField from "@/app/models/enums/ContactField.enum";
+import ContactField from "@/app/models/enums/contactField.enum";
 
 const validateNamePattern = (value: string): boolean => {
   value = value.trim();
