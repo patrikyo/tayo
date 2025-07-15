@@ -1,6 +1,7 @@
 import NavigationProps from "@/app/models/interfaces/NavigationProps.interface";
 import styles from "./Navigation.module.css";
 import Direction from "@/app/models/enums/direction.enum";
+import Link from "next/link";
 const Navigation: React.FC<NavigationProps> = ({ links, direction }) => {
   return (
     <nav>
@@ -12,7 +13,7 @@ const Navigation: React.FC<NavigationProps> = ({ links, direction }) => {
         {links.map((ele) => {
           return (
             <li key={ele.title}>
-              <a href={ele.href}>{ele.title}</a>
+              <Link href={ele.href}>{ele.title}</Link>
             </li>
           );
         })}
