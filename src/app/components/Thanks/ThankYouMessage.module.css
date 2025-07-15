@@ -1,0 +1,48 @@
+.container,
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.messageContainer {
+  padding: 1.25rem 0.625rem 1.5rem 0.625rem;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #f1f7e5;
+  padding: 3rem 0;
+}
+
+.icon {
+  color: #95c33f;
+  height: 3rem;
+  width: 3rem;
+}
+
+.iconSmall {
+  height: 2rem;
+  width: 2rem;
+}
+
+.iconExtraSmall {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
