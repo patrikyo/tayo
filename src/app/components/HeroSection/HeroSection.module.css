@@ -1,8 +1,7 @@
 .container {
   min-height: 38rem;
   max-height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
-    url("/elevatorHero.jpeg");
+  background-image: url("/elevatorHero.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;

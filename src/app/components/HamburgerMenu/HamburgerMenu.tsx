@@ -22,7 +22,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
           <FontAwesomeIcon
             icon={faBars}
             size="3x"
-            color="#000000"
+            color="#676776"
             aria-hidden="true"
           />
         )}
@@ -31,7 +31,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
           <FontAwesomeIcon
             icon={faClose}
             size="3x"
-            color="#000000"
+            color="#676776"
             aria-hidden="true"
           />
         )}
