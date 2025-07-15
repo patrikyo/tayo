@@ -13,7 +13,9 @@ export default function Home() {
       <HeroSection />
       <ServiceOverview />
       <section className={styles.serviceContainer}>
-        <h2 className={styles.serviceTitle}>Service</h2>
+        <h2 className={styles.serviceTitle} id="service">
+          Service
+        </h2>
         <StandardServiceSection
           img="/handshake.png"
           description="Vi förstår att service är en avgörande faktor för att säkerställa att ditt hiss/rulltrappa system fungerar optimalt och säkert. Därför erbjuder vi en omfattande service som är utformad för att möta dina unika behov. Vi kan hjälpa dig med allt från regelbunden underhåll till akuta reparationer. Vårt mål är att minimera driftstopp och maximera livslängden på ditt hiss/rulltrappa system. Vi är tillgängliga dygnet runt för att lösa eventuella problem som uppstår och vår expertis säkerställer att du får de mest effektiva och kostnadseffektiva lösningarna. Vi kan också hjälpa dig att utveckla en serviceplan som är anpassad efter dina specifika behov och budget. Vi arbetar nära med dig för att säkerställa att ditt hisssystem alltid fungerar på sitt bästa sätt. Vårt fokus på kvalitet och service har gjort oss till en föredragen leverantör för många av våra kunder. Vi är stolta över vår förmåga att bygga långsiktiga relationer med våra kunder genom att erbjuda enastående kundservice och expertis inom hiss/rulltrappa branschen. Kontakta oss idag för att lära dig mer om våra servicealternativ och hur vi kan hjälpa dig att säkerställa att ditt hisssystem fungerar på bästa sätt. Vi ser fram emot att arbeta med dig!"
@@ -21,7 +23,9 @@ export default function Home() {
       </section>
 
       <section className={styles.diagnosticsContainer}>
-        <h2 className={styles.reperationTitle}>Felsökning & reperation</h2>
+        <h2 className={styles.reperationTitle} id="troubleshoot">
+          Felsökning & reperation
+        </h2>
         <DiagnosticsSection
           img="/repair.png"
           title="Reparation"
@@ -35,7 +39,9 @@ export default function Home() {
       </section>
 
       <section className={styles.maintenanceContainer}>
-        <h2 className={styles.serviceTitle}>Underhåll och uppföljning</h2>
+        <h2 className={styles.serviceTitle} id="maintenance">
+          Underhåll och uppföljning
+        </h2>
         <StandardServiceSection
           img="/writingReport.png"
           description="Underhåll och uppföljning är avgörande för att säkerställa att ditt hisssystem fungerar optimalt och förhindra potentiella driftstopp. Vi erbjuder skräddarsydda underhållstjänster som är utformade för att passa dina specifika behov och budget. Vårt underhållsprogram är utformat för att upprätthålla säkerheten och funktionaliteten hos ditt hisssystem genom regelbundna inspektioner och reparationer. Vi använder oss av de senaste verktygen och teknikerna för att säkerställa att ditt hisssystem hålls i gott skick och att eventuella problem upptäcks och åtgärdas i tid. Vi förstår också att varje hisssystem är unikt och därför erbjuder vi skräddarsydda underhållsplaner som är anpassade efter dina specifika behov. Vi kommer att utvärdera ditt hisssystem och ta hänsyn till faktorer som antal användare, användningsområde och ålder på utrustningen när vi utformar en plan som passar dina behov. Vi erbjuder också regelbunden uppföljning för att säkerställa att ditt hisssystem fortsätter att fungera optimalt. Vårt team kommer att kontakta dig regelbundet för att planera underhållsbesök och diskutera eventuella problem som du kan ha upptäckt. Vi kommer också att ge dig råd om de bästa lösningarna för att förbättra säkerheten och funktionaliteten hos ditt hisssystem. Kontakta oss idag för att boka en underhållstjänst eller för att lära dig mer om hur vi kan hjälpa dig att upprätthålla säkerheten och funktionaliteten hos ditt hisssystem på lång sikt."
