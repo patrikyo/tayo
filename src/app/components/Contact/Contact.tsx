@@ -8,6 +8,8 @@ import ContactInput from "@/app/models/interfaces/ContactInput.interface";
 import fields from "@/app/data/fields";
 import Spinner from "../Spinner/Spinner";
 import { useRouter } from "next/navigation";
+import { faExclamationCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   const router = useRouter();
@@ -48,7 +50,10 @@ const Contact = () => {
       body: form,
     };
     fetch("https://contact-api-3l0q.onrender.com/api/contacts", requestOptions)
-      .then(() => {
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error();
+        }
         setSubmitStatus(Status.Success);
         setFormData({
           [ContactField.FirstName]: "",
@@ -171,15 +176,23 @@ const Contact = () => {
         {/** spinner */}
         {isLoading && (
           <div className={styles.withoutStatusMessage}>
-            <Spinner size={32} color="#27ae60" />
+            <Spinner size={32} color="#676776" />
           </div>
         )}
 
         {!isLoading && (
           <div className="mb-2">
             {submitStatus === Status.Error && (
-              <div className={styles.error} role="alert" aria-live="polite">
-                Something went wrong. Please try again.
+              <div
+                className={styles.errorContainer}
+                role="alert"
+                aria-live="polite"
+              >
+                <FontAwesomeIcon
+                  icon={faExclamationCircle}
+                  className={styles.icon}
+                />
+                Ett fel uppstod. Var god försök igen om en stund.
               </div>
             )}
           </div>
