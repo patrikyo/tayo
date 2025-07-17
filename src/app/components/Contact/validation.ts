@@ -43,31 +43,31 @@ const getValidationError = (name: ContactField, value: string): string => {
     case ContactField.LastName:
       if (validateNamePattern(value)) {
         return `${
-          name === "firstName" ? "First" : "Last"
-        } name can only contain Letters (a-z,å,ä,ö)`;
+          name === "firstName" ? "För" : "Efter"
+        }namnet får endast innehålla bokstäver (a–z, å, ä, ö)`;
       } else if (validateMinMaxLength(value, 2, 50)) {
         return `${
-          name === "firstName" ? "First" : "Last"
-        } name must be between 2 and 50 characters Long`;
+          name === "firstName" ? "För" : "Efter"
+        }namnet måste vara mellan 2 och 50 tecken långt`;
       }
       return "";
     case ContactField.EmailAddress:
       if (validateEmailPattern(value)) {
-        return "Please enter a valid email adress";
+        return "Vänligen ange en giltig e-postadress";
       } else if (validateMinMaxLength(value, 5, 254)) {
-        return "Email must be between 5 and 254 characters Long";
+        return "E-postadressen måste vara mellan 5 och 254 tecken lång";
       }
       return "";
     case ContactField.PhoneNumber:
       if (validatePhone(value)) {
-        return "Phone number must be in a valid format";
+        return "Telefonnumret måste vara i ett giltigt format";
       } else if (validateMinMaxLength(value, 7, 20)) {
-        return "Phone number must be between 7 and 20 characters Long";
+        return "Telefonnumret måste vara mellan 7 och 20 tecken långt";
       }
       return "";
     case ContactField.UserMessage:
       if (validateMinMaxLength(value, 10, 1000)) {
-        return "Message must be at least 10 characters Long";
+        return "Meddelandet måste vara minst 10 tecken långt";
       }
       return "";
     default:

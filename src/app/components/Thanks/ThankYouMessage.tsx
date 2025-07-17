@@ -14,6 +14,7 @@ const ThankYouMessage = () => {
         <FontAwesomeIcon
           icon={faCircleCheck}
           className={styles.icon}
+          color="#95c33f"
           aria-hidden="true"
         />
         <h2>Tack för ditt meddelande!</h2>
@@ -28,15 +29,18 @@ const ThankYouMessage = () => {
             icon={faClock}
             aria-hidden="true"
             className={`${styles.icon} ${styles.iconSmall}`}
+            color="#95c33f"
           />
           <span>Vi återkopplar vanligvis inom 24 timmar på vardagar</span>
         </div>
         <Link href="/" className={styles.link}>
-          <FontAwesomeIcon
-            icon={faAngleLeft}
-            className={`${styles.icon} ${styles.iconExtraSmall}`}
-          />
-          <span>Till startsidan</span>
+          <div className={styles.linkBtnContainer}>
+            <FontAwesomeIcon
+              icon={faAngleLeft}
+              className={`${styles.icon} ${styles.iconExtraSmall}`}
+            />
+            <span>Till startsidan</span>
+          </div>
         </Link>
       </div>
     </div>

@@ -1,5 +1,5 @@
 .container {
-  padding: 1.25rem 0.625rem;
+  padding: 1.25rem 0.625rem 0 0.625rem;
 }
 
 .title {
@@ -20,4 +20,9 @@
 
 .contactContainer {
   margin-top: 1rem;
+}
+
+.footerContainer {
+  max-width: 753px;
+  margin: 0 auto;
 }

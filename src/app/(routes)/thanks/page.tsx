@@ -4,11 +4,13 @@ import styles from "./page.module.css";
 import Footer from "@/app/components/Footer/Footer";
 const Thanks = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Header />
       <ThankYouMessage />
-      <Footer />
-    </div>
+      <div className={styles.footerContainer}>
+        <Footer />
+      </div>
+    </>
   );
 };
 

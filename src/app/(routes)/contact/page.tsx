@@ -17,7 +17,9 @@ const ContactPage = () => {
           <Contact />
         </div>
       </div>
-      <Footer />
+      <div className={styles.footerContainer}>
+        <Footer />
+      </div>
     </>
   );
 };
