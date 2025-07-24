@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./DiagnosticsSection.module.css";
+import DiagnosticsSectionProps from "@/app/models/interfaces/DiagnosticsSectionProps.interface";
 const DiagnosticsSection: React.FC<DiagnosticsSectionProps> = ({
   title,
   description,

@@ -3,3 +3,5 @@ interface DiagnosticsSectionProps {
   description: string;
   img: string;
 }
+
+export default DiagnosticsSectionProps;
