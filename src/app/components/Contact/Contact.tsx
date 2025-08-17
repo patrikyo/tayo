@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 import { getValidationError } from "./validation";
 import ContactField from "@/app/models/enums/contactField.enum";
 import Status from "@/app/models/enums/status.enum";
-import ContactInput from "@/app/models/interfaces/ContactInput.interface";
+import ContactInput from "@/app/models/interfaces/contactInput.interface";
 import fields from "@/app/data/fields";
 import Spinner from "../Spinner/Spinner";
 import { useRouter } from "next/navigation";

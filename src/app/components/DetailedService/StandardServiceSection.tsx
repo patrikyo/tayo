@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./StandardServiceSection.module.css";
-import StandardServiceSectionProps from "@/app/models/interfaces/StandardServiceSectionProps.interface";
+import StandardServiceSectionProps from "@/app/models/interfaces/standardServiceSectionProps.interface";
 
 const StandardServiceSection: React.FC<StandardServiceSectionProps> = ({
   img,

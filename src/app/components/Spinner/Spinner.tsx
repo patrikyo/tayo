@@ -1,4 +1,4 @@
-import SpinnerProps from "@/app/models/interfaces/SpinnerProps";
+import SpinnerProps from "@/app/models/interfaces/spinnerProps";
 import { ClipLoader } from "react-spinners";
 
 const Spinner: React.FC<SpinnerProps> = ({ size, color }) => {

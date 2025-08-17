@@ -1,4 +1,4 @@
-import ILink from "@/app/models/interfaces/Link.interface";
+import ILink from "@/app/models/interfaces/link.interface";
 import Link from "next/link";
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

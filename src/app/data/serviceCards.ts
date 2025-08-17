@@ -3,7 +3,7 @@ import {
   faUsersLine,
   faWrench,
 } from "@fortawesome/free-solid-svg-icons";
-import ServiceCardProp from "../models/interfaces/ServiceCard.interface";
+import ServiceCardProp from "../models/interfaces/serviceCard.interface";
 
 const serviceCards: ServiceCardProp[] = [
   {

@@ -1,4 +1,4 @@
-import ServiceCardProp from "@/app/models/interfaces/ServiceCard.interface";
+import ServiceCardProp from "@/app/models/interfaces/serviceCard.interface";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ServiceCard.module.css";
 import Link from "next/link";

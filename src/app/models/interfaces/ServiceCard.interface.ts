@@ -1,5 +1,5 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import CardButton from "./CardButton.interface";
+import CardButton from "./cardButton.interface";
 
 interface ServiceCardProp {
   icon: IconProp;
