@@ -17,7 +17,11 @@ const Header = () => {
       <Link href="/" className={styles.titleLink}>
         <span className={styles.titleContainer}>
           <h1 className={styles.title}>Tayo</h1>
-          <FontAwesomeIcon icon={faElevator} className={styles.icon} />
+          <FontAwesomeIcon
+            icon={faElevator}
+            className={styles.icon}
+            data-testid="elevator-icon"
+          />
         </span>
       </Link>
 

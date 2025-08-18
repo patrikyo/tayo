@@ -24,6 +24,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
             size="3x"
             color="#676776"
             aria-hidden="true"
+            data-testid="bars-icon"
           />
         )}
 
@@ -33,6 +34,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ links }) => {
             size="3x"
             color="#676776"
             aria-hidden="true"
+            data-testid="close-icon"
           />
         )}
       </button>

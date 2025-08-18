@@ -10,7 +10,11 @@ const ServiceCard: React.FC<ServiceCardProp> = ({
 }) => {
   return (
     <div className={styles.container}>
-      <FontAwesomeIcon icon={icon} className={styles.icon} />
+      <FontAwesomeIcon
+        icon={icon}
+        className={styles.icon}
+        data-testid="icon-svg"
+      />
       <h4 className={styles.title}>{title}</h4>
       <p className={styles.description}>{description}</p>
       <Link href={button.link} className={styles.link}>
