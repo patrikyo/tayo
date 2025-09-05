@@ -49,7 +49,7 @@ const Contact = () => {
       headers: { "Content-Type": "application/json" },
       body: form,
     };
-    fetch("https://contact-api-3l0q.onrender.com/api/contacts", requestOptions)
+    fetch("https://tayo-wlca.onrender.com/api/contacts", requestOptions)
       .then((response) => {
         if (!response.ok) {
           throw new Error();
